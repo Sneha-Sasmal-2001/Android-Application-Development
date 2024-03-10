@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="2"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/girlshavemanysecrets"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Know"
+
+            android:textColor="@color/black"
+            android:textSize="65sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/europeantypewriter"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="to"
+
+            android:textColor="#C6342A"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="300dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/smalltypewriting"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="GROW"
+            android:textColor="#277BBD"
+            android:textSize="55sp" />
+    </LinearLayout>
+
+</RelativeLayout>

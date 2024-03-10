@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us" />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact" />
+    <item
+        android:id="@+id/exit"
+        android:title="Exit" />
+    <item android:title="Sub Menu" >
+        <menu >
+            <item android:title="Item" />
+            <item android:title="Item" />
+        </menu>
+    </item>
+</menu>
